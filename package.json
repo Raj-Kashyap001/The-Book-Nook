@@ -1,0 +1,19 @@
+{
+  "name": "the-book-nook",
+  "version": "1.0.0",
+  "description": "The bookstore mangment app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app",
+    "dev": "nodemon --env-file=.env app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
